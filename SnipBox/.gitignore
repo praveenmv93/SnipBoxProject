@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+
+# Distribution / packaging
+lib/
+lib64/
+
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+
+# Django stuff:
+local_settings.py
+db.sqlite3
+
+
+# dotenv
+.env
+.env.*
+
+# virtualenv
+.venv/
+venv/
+ENV/
+env.bak/
+env/
+
+
+# Pyre type checker
+.pyre/
+
+# PyCharm/IntelliJ IDEA
+.idea/
+../.idea/
+
