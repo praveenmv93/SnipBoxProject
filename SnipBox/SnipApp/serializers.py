@@ -9,8 +9,9 @@ class TagSerializer(serializers.ModelSerializer):
         fields = ['id', 'tag_title']
 
         extra_kwargs = {
-        'tag_title': {'validators': []}
-    }
+            'tag_title': {'validators': []}
+        }
+
 
 class SnippetSerializer(serializers.ModelSerializer):
     tags = TagSerializer(many=True)
