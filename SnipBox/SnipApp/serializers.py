@@ -7,6 +7,10 @@ class TagSerializer(serializers.ModelSerializer):
     class Meta:
         model = Tag
         fields = ['id', 'tag_title']
+        
+        extra_kwargs = {
+        'tag_title': {'validators': []}
+    }
 
         extra_kwargs = {
             'tag_title': {'validators': []}
